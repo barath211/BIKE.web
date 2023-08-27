@@ -1,0 +1,109 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .hero {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0 ;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.862);
+    z-index: -1;
+  }
+  
+  .nav-bar {
+    text-align: center;
+  }
+  
+  .nav-bar ul li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 9rem;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 2rem;
+  }
+  
+  .nav-bar ul li a {
+    text-decoration: none;
+    color: rgba(255, 94, 0, 0.884);
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  .nav-bar ul li a span {
+    margin-left: 0.3rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .bike-logo {
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid black;
+    border-radius: 80%;
+    margin-top: -2rem;
+  }
+  
+  .logo-tittle h1 {
+    text-align: center;
+    margin-top: 10rem;
+    color: white;
+    font-weight: 900;
+    transition: 0s;
+  }
+  
+  .logo-tittle h1:hover {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+  }
+  
+  .explore-btn {
+    margin-top: 3rem;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: 0s;
+  }
+  
+  .explore-btn:hover {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+  }
+  
+  .bg-video {
+    width: 100%;
+  position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
+  }
+  
+  .nav-bar ul li:hover {
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .nav-bar ul li a:hover {
+    color: black;
+  }
+  
